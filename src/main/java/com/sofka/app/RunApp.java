@@ -1,9 +1,6 @@
 package com.sofka.app;
 
-import com.sofka.exercises.Punto1;
-import com.sofka.exercises.Punto2;
-import com.sofka.exercises.Punto3;
-import com.sofka.exercises.Punto4;
+import com.sofka.exercises.*;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -35,6 +32,15 @@ public class RunApp
                         break;
                     case 4:
                         Punto4.crearInterfaz(input);
+                        break;
+                    case 5:
+                        Punto5.crearInterfaz();
+                        break;
+                    case 6:
+                        Punto6.crearInterfaz();
+                        break;
+                    case 7:
+                        Punto7.crearInterfaz(input);
                         break;
                     default:
                         System.out.println("Ejercicio no encontrado en la lista");
