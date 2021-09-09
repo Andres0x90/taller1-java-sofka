@@ -18,9 +18,9 @@ public class Punto2
     {
         int num1, num2;
 
-        System.out.print("Ingrese un numero: ");
+        System.out.print("Ingrese un numero entero: ");
         num1 = input.nextInt();
-        System.out.print("Ingrese otro numero: ");
+        System.out.print("Ingrese otro numero entero: ");
         num2 = input.nextInt();
 
         compararNumeros(num1, num2);
