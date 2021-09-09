@@ -42,6 +42,15 @@ public class RunApp
                     case 7:
                         Punto7.crearInterfaz(input);
                         break;
+                    case 8:
+                        Punto8.crearInterfaz(input);
+                        break;
+                    case 9:
+                        Punto9.crearInterfaz(input);
+                        break;
+                    case 10:
+                        Punto10.crearInterfaz(input);
+                        break;
                     default:
                         System.out.println("Ejercicio no encontrado en la lista");
                         break;
