@@ -1,6 +1,7 @@
 package com.sofka.app;
 
 import com.sofka.exercises.*;
+import com.sofka.exercises.punto16.Punto16;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -65,6 +66,9 @@ public class RunApp
                         break;
                     case 15:
                         Punto15.crearInterfaz(input);
+                        break;
+                    case 16:
+                        Punto16.crearInterfaz(input);
                         break;
                     default:
                         System.out.println("Ejercicio no encontrado en la lista");
